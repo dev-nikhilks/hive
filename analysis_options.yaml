@@ -9,3 +9,4 @@ linter:
     use_string_in_part_of_directives: false
     always_put_required_named_parameters_first: false
     use_setters_to_change_properties: false
+    public_member_api_docs: false

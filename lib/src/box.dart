@@ -64,6 +64,9 @@ abstract interface class Box<E> {
   /// does not exist.
   List<E?> getAll(Iterable<String> keys);
 
+  /// Returns all values
+  List<E?> getAllData();
+
   /// Returns all values in the given range.
   ///
   /// Throws a [RangeError] if [start] or [end] are out of bounds.

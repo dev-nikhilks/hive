@@ -84,7 +84,6 @@ class Hive {
       engine: encryptionKey != null ? IsarEngine.sqlite : IsarEngine.isar,
       maxSizeMiB: maxSizeMiB,
       encryptionKey: encryptionKey,
-      inspector: false,
     );
     final newBox = _BoxImpl<E>(isar);
     _openBoxes[name] = newBox;
